@@ -36,11 +36,11 @@ export default async function Index() {
       <Container className={styles.section}>
         <div className={styles.heroInfo}>
           <h1 className={styles.heroTitle}>
-            try our collaborative app done by-&nbsp;
+            Kickstart your collaborative&nbsp;app
           </h1>
           <p className={styles.heroLead}>
-            21eg109b49'M.Tejaswi Raj Madari 
-            21eg109b37 Aditya &nbsp;
+            Use the Liveblocks Starter Kit to build your document-based
+            collaborative app in&nbsp;minutes.
           </p>
         </div>
         <div className={styles.heroActions}>
@@ -122,5 +122,3 @@ export default async function Index() {
     </MarketingLayout>
   );
 }
-
-
