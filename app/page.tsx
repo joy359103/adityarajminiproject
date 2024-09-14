@@ -36,11 +36,10 @@ export default async function Index() {
       <Container className={styles.section}>
         <div className={styles.heroInfo}>
           <h1 className={styles.heroTitle}>
-            Kickstart your collaborative&nbsp;app
+            Launch Your College Project with Ease
           </h1>
           <p className={styles.heroLead}>
-            Use the Liveblocks Starter Kit to build your document-based
-            collaborative app in&nbsp;minutes.
+            Use our College Project Starter Kit to kick off your academic projects in no time.
           </p>
         </div>
         <div className={styles.heroActions}>
@@ -53,72 +52,68 @@ export default async function Index() {
             <Button icon={<SignInIcon />}>Sign in</Button>
           </form>
           <LinkButton
-            href="https://liveblocks.io/docs/guides/nextjs-starter-kit"
+            href="https://example.com/college-project-starter-kit"
             target="_blank"
             variant="secondary"
           >
-            Learn more
+            Explore Resources
           </LinkButton>
         </div>
       </Container>
       <Container className={styles.section}>
-        <h2 className={styles.sectionTitle}>Features</h2>
+        <h2 className={styles.sectionTitle}>Key Features</h2>
         <div className={styles.featuresGrid}>
           <Feature
             description={
               <>
-                A collaborative whiteboard app with included share menu,
-                documents listing, users, groups, permissions, and more.
+                A collaborative platform with features like project sharing, task management, user roles, and more.
               </>
             }
-            title="Liveblocks"
+            title="Collaboration Tools"
           />
           <Feature
             description={
               <>
-                Best practices followed, using a mixture of SSR and custom API
-                endpoints. Modify documents from both client and server.
+                Implements best practices with SSR and custom endpoints. Edit and manage project tasks from both client and server.
               </>
             }
-            title="Next.js"
+            title="Modern Web Technologies"
           />
           <Feature
             description={
               <>
-                Adjust our reusable interface & design system to fit your needs.
+                Customize our reusable interface and design system to match your project requirements.
               </>
             }
-            title="User Interface"
+            title="Customizable Interface"
           />
           <Feature
             description={
               <>
-                All custom client and server functions are fully typed, and easy
-                to update.
+                All client and server functions are fully typed, making it easy to maintain and update.
               </>
             }
-            title="TypeScript"
+            title="TypeScript Integration"
           />
           <Feature
             description={
               <>
-                Complete authentication, compatible with any NextAuth provider,
-                including GitHub, Google, Auth0, and many more.
+                Complete authentication system that supports various providers, including GitHub, Google, and more.
               </>
             }
-            title="NextAuth.js"
+            title="Flexible Authentication"
           />
           <Feature
             description={
               <>
-                See data update live using the SWR (state-while-revalidate)
-                library.
+                Real-time data updates with the SWR (stale-while-revalidate) library for a dynamic user experience.
               </>
             }
-            title="SWR"
+            title="Real-Time Data"
           />
         </div>
       </Container>
     </MarketingLayout>
   );
 }
+
