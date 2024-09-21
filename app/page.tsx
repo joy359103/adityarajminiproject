@@ -39,7 +39,7 @@ export default async function Index() {
             Kickstart your collaborative&nbsp;app
           </h1>
           <p className={styles.heroLead}>
-            Use the SyncSpace  to build your document-based
+            Use the Liveblocks Starter Kit to build your document-based
             collaborative app in&nbsp;minutes.
           </p>
         </div>
@@ -53,7 +53,7 @@ export default async function Index() {
             <Button icon={<SignInIcon />}>Sign in</Button>
           </form>
           <LinkButton
-            href=""
+            href="https://liveblocks.io/docs/guides/nextjs-starter-kit"
             target="_blank"
             variant="secondary"
           >
@@ -71,7 +71,7 @@ export default async function Index() {
                 documents listing, users, groups, permissions, and more.
               </>
             }
-            title="SyncSpace"
+            title="Liveblocks"
           />
           <Feature
             description={
@@ -106,7 +106,7 @@ export default async function Index() {
                 including GitHub, Google, Auth0, and many more.
               </>
             }
-            title=".js"
+            title="NextAuth.js"
           />
           <Feature
             description={
