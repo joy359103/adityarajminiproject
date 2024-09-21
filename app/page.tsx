@@ -39,7 +39,7 @@ export default async function Index() {
             Kickstart your collaborative&nbsp;app
           </h1>
           <p className={styles.heroLead}>
-            Use SyncSpace to build your document-based
+            Use the SyncSpace Starter Kit to build your document-based
             collaborative app in&nbsp;minutes.
           </p>
         </div>
@@ -52,7 +52,13 @@ export default async function Index() {
           >
             <Button icon={<SignInIcon />}>Sign in</Button>
           </form>
-          
+          <LinkButton
+            href="https://www.youtube.com/"
+            target="_blank"
+            variant="secondary"
+          >
+            Learn more
+          </LinkButton>
         </div>
       </Container>
       <Container className={styles.section}>
@@ -65,7 +71,7 @@ export default async function Index() {
                 documents listing, users, groups, permissions, and more.
               </>
             }
-            title="SyncSpace"
+            title="Liveblocks"
           />
           <Feature
             description={
