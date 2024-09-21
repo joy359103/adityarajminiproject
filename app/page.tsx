@@ -52,13 +52,7 @@ export default async function Index() {
           >
             <Button icon={<SignInIcon />}>Sign in</Button>
           </form>
-          <LinkButton
-            href=""
-            target="_blank"
-            variant="secondary"
-          >
-            Learn more
-          </LinkButton>
+          
         </div>
       </Container>
       <Container className={styles.section}>
