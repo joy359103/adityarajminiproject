@@ -36,10 +36,11 @@ export default async function Index() {
       <Container className={styles.section}>
         <div className={styles.heroInfo}>
           <h1 className={styles.heroTitle}>
-            Kickstart your collaborative&nbsp;app
+            all in one
+            +jmnk,l your collaborative&nbsp;app
           </h1>
           <p className={styles.heroLead}>
-            Use the Liveblocks Starter Kit to build your document-based
+            Use the SyncSpace to build your document-based
             collaborative app in&nbsp;minutes.
           </p>
         </div>
@@ -52,13 +53,6 @@ export default async function Index() {
           >
             <Button icon={<SignInIcon />}>Sign in</Button>
           </form>
-          <LinkButton
-            href="https://liveblocks.io/docs/guides/nextjs-starter-kit"
-            target="_blank"
-            variant="secondary"
-          >
-            Learn more
-          </LinkButton>
         </div>
       </Container>
       <Container className={styles.section}>
@@ -71,7 +65,7 @@ export default async function Index() {
                 documents listing, users, groups, permissions, and more.
               </>
             }
-            title="Liveblocks"
+            title="SyncSpace"
           />
           <Feature
             description={
@@ -90,34 +84,6 @@ export default async function Index() {
             }
             title="User Interface"
           />
-          <Feature
-            description={
-              <>
-                All custom client and server functions are fully typed, and easy
-                to update.
-              </>
-            }
-            title="TypeScript"
-          />
-          <Feature
-            description={
-              <>
-                Complete authentication, compatible with any NextAuth provider,
-                including GitHub, Google, Auth0, and many more.
-              </>
-            }
-            title="NextAuth.js"
-          />
-          <Feature
-            description={
-              <>
-                See data update live using the SWR (state-while-revalidate)
-                library.
-              </>
-            }
-            title="SWR"
-          />
-        </div>
       </Container>
     </MarketingLayout>
   );
